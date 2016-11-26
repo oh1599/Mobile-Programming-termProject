@@ -50,17 +50,16 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
                 <ImageView
-                    android:id="@+id/record_view"
+                    android:id="@+id/writeImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:onClick="write"
                     android:layout_weight="1"
                     android:src="@drawable/record"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:onClick="write"
+                    android:id="@+id/writeText"
                     android:text="글쓰기"
                     android:textSize="20dp"
                     android:textColor="#020202"
@@ -73,12 +72,14 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/resultImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/result"
                     />
                 <TextView
+                    android:id="@+id/resultText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="기록 보기"
@@ -99,12 +100,14 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/mapImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/map"
                     />
                 <TextView
+                    android:id="@+id/mapText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="지도 보기"
@@ -119,12 +122,14 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/statisticImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/statistic"
                     />
                 <TextView
+                    android:id="@+id/statisticText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="통계 보기"
