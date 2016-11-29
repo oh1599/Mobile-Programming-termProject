@@ -26,9 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WriteActivity" />
-        <activity android:name=".StatisticActivity" />
-        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".WriteActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".StatisticActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".ResultActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

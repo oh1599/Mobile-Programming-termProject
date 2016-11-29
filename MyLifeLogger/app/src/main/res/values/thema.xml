@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="thema">
+        <item >공부</item>
+        <item >데이트</item>
+        <item >여행</item>
+        <item >등하교</item>
+        <item >축구</item>
+        <item >술</item>
+        <item >영화</item>
+    </string-array>
+</resources>
