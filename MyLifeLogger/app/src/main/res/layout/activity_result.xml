@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="30dp"
             android:text="기록 보기"/>
 
