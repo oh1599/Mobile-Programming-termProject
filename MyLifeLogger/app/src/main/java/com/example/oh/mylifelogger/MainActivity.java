@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+//한샘이형 하이
 public class MainActivity extends AppCompatActivity {
 
     Intent writeIntent,mapIntent,resultIntent,statisticIntent;
